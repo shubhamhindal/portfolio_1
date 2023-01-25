@@ -29,7 +29,7 @@ body{
     position: relative;
 }
 .imgcrop{
-    background:url(./author-1.jpg.webp);
+    background:url(./author-1.webp);
      /* background-size: 100%;  */
     background-repeat: no-repeat;
     background-position: center;
