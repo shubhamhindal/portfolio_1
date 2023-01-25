@@ -1,0 +1,72 @@
+body{
+    overflow-x: hidden;
+    /* container se bahar chsla jata hai to vha overflow ka use krte hai :- visibal by default, hidden me jitna area container se bahar hoga wo chup jaega, scroll me jo content chup gya hai usko scroll krke dekh sakte hai, auto aur scroll same hai bs change ye hai ki jha scroll ki jrut=rat nhi fir bhi scroll button aa rha vha pr se hstha deta hsi auto  */
+    /* opacity: ;  image ko thoda feeka krne ke kaam aati hai  */
+}
+.image{
+    border-radius: 100%; 
+    /* background-size: cover; */
+    height: 65px;
+    width: 65px;
+    
+}
+.flex{
+    display: flex;
+    
+}
+.pera{
+    /* font-weight: 400; */
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.name{
+    font-size: 55px;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    display: inline-block;
+    position: relative;
+}
+.imgcrop{
+    background:url(./author-1.jpg.webp);
+     /* background-size: 100%;  */
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-position: cover;  */
+    width:800px;
+    height:800px;
+    margin: 40px ;
+    
+}
+.icon{
+    color: #2f89fc;
+    font-size: 40px;
+    z-index: 0;
+    line-height: 1.5;
+    padding: 40px;
+}
+.fontsize{
+    font-size: 18px;   
+}
+
+.text-related-class{
+    font-size: 30px; 
+    width: 100%;
+    text-align: left; 
+    line-height: 1.8;
+    margin-left: 80px;
+    padding-left: 80px; 
+    gap: 40px;
+}
+
+
+@media screen and (max-width:480px) {
+    body{
+        background-color: red;
+    }
+    .flex{
+        display: flex;   
+    }
+    
+}
